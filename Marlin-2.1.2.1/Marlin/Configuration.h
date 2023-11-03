@@ -1160,7 +1160,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 52.2 }  // 52.4 is correct for printer as shipped
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 90 }   // 104.4 with 32 micro steps enabled gives better results
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 100 }   // 104.4 with 32 micro steps enabled gives better results
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
