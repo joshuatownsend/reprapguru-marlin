@@ -1161,7 +1161,7 @@
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 52.2 }  // 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 100 }   // default
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.16, 78.93, 3893.58, 100 }   // michael and josh
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.16, 78.93, 3893.58, 101 }   // michael and josh
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
  * Override with M203
@@ -1171,7 +1171,7 @@
 #define DEFAULT_MAX_FEEDRATE          { 250, 250, 20, 22 } // michael and josh
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
-  #define MAX_FEEDRATE_EDIT_VALUES    { 600, 600, 10, 50 } // ...or, set your own edit limits
+  #define MAX_FEEDRATE_EDIT_VALUES    { 600, 600, 30, 50 } // ...or, set your own edit limits
 #endif
 
 /**
